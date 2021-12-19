@@ -13,16 +13,22 @@
             padding: 0;
         }
         body{
-            width: 100vw;
-            height: 170vh;
+        	margin: 0 auto;
+            width: 1500px;
+            height: 1500px;
             display: grid;
             grid-template-columns: auto;
-            grid-template-rows: 5% 85% 10%;
+            grid-template-rows: 5% 80% 5% 10%;
             grid-template-areas: 
             "header"
             "div"
+            "aside"
             "footer"
             ;
+            background-color: rgb(211, 208, 203);
+        }
+        aside{
+            grid-area: aside;
         }
         header{
             margin-top: 20px;
@@ -106,7 +112,7 @@
         }
     </style>
     <script type="text/javascript" src="_02_validation.js"></script>
-    <title>Document</title>
+    <title>agree</title>
 </head>
 
 <body>
@@ -206,8 +212,10 @@
             <input type="button" id="agree" onclick="agreeJoin(form)" value="확인">
         </form>
     </div>
-    <footer>
+    <aside>
         <p id="alert">네이버 이용약관과 개인정보 수집 및 이용에 대한 안내 모두 동의해주세요.</p><br>
+    </aside>
+    <footer>
         <p>회사, 동아리 등 단체에서 사용할 ID가 필요하세요? 단체 회원 가입</p><br>
         <p>이용약관 | 개인정보처리방침 | 책임의 한계와 법적고지 | 회원정보 고객센터</p>
         <p>naver Copyright NAVER Corp. All Rights Reserved.</p>
