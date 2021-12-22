@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
+<<<<<<< HEAD
   <runtime name="Apache Tomcat v9.0-webEx"/>
   <fixed facet="java"/>
   <fixed facet="jst.web"/>
+=======
+  <runtime name="Apache Tomcat v9.0"/>
+  <fixed facet="jst.web"/>
+  <fixed facet="java"/>
+>>>>>>> refs/remotes/start/master
   <fixed facet="wst.jsdt.web"/>
   <installed facet="java" version="11"/>
   <installed facet="jst.web" version="4.0"/>
